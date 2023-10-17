@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+      font-family: "Public Sans", system-ui, sans-serif;
+    }
+  }
+
+.custom-border {
+    position: relative;
+    overflow: hidden; /* This is important for the hover effect */
+}
+
+.custom-border::after {
+    content: "";
+    position: absolute;
+    top: 3.7em;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Start with a width of 0, so it's not visible initially */
+    height: 4px;
+    background: linear-gradient(to right, #31d35c, #00ce81, #00c89d, #00c0b0, #2bb7b9);
+    transition: width 0.3s; /* Add a transition for smooth animation */
+}
+
+.custom-border:hover::after {
+    width: 100%; /* Expand the width to 100% on hover */
+    
+}
+
+.hover-color:hover {
+  cursor: pointer;
+  filter:  invert(20%) sepia(62%) saturate(497%) hue-rotate(83deg) brightness(93%) contrast(99%);
+  -webkit-filter:  invert(20%) sepia(62%) saturate(497%) hue-rotate(83deg) brightness(93%) contrast(99%);
+}
+
