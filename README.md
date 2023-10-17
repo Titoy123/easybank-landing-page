@@ -13,7 +13,6 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -29,15 +28,15 @@ Desktop View
 
 ![Desktop Screenshot](/public/design/screenshot-desktop.png)
 
-Mobile View
+Mobile VieW
 
 ![Mobile Screenshot](/public/design/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [https://github.com/Mozahidul01/EasyBank-Landing-Page]
+- Solution URL: [https://github.com/troyjosedev/easybank-landing-page/tree/main]
 
-- Live Site URL: [https://easybank-landing-page-fem.pages.dev/]
+- Live Site URL: [https://easybank-landing-page-troy.netlify.app/]
 
 ### Built with
 
@@ -52,8 +51,7 @@ Mobile View
 ### What I learned
 
 - I've found it relatively simple to set up Tailwind CSS and React and have been enjoying the process of learning about components and layout design.
-
-
+- 
 ## Author
 
 - Frontend Mentor - [https://www.frontendmentor.io/profile/troyjosedev]
